@@ -1,0 +1,22 @@
+<?php 
+return [
+    'title' => 'movimentos',
+    'menu' => 'lançar pontos',
+    'typeOfTransaction' => 'tipo de movimento',
+    'credit' => 'crédito',
+    'debit' => 'débito',
+    'transfer' => 'transferência',
+    'value' => 'valor',
+    'originProgram' => 'programa de origem',
+    'destinationProgram' => 'programa de destino',
+    'saveError' => 'Erro ao salvar movimento.',
+    'fieldError' => 'Você não preencheu todos os campos',
+    'insufficientBalance' => 'Saldo insuficiente no programa da origem',
+    'transferTo' => 'Transferência para',
+    'transferFrom' => 'Transferência de',
+    'signatureClub' => 'Clube de assinatura',
+    'descriptionToolTip' => 'descrição deste lançamento',
+    'valueToolTip' => 'O valor é importante somente se você pretende controlar o seu custo de geração.',
+    'originProgramToolTip' => 'pontos que serão debitados no prorama de origem',
+    'pointsFinalToolTip' => 'pontos que serão creditados no programa de destino',
+];

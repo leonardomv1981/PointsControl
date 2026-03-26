@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'title' => 'Programs',
+    'noProgram' => 'You have no programs registered.',
+    'addTitle' => 'add Program',
+    'editTitle' => 'edit Program',
+    'programName' => 'program name',
+    'validity' => 'validity (in months)',
+    'btnAdd' => 'add',
+    'btnEdit' => 'edit',
+    'balance' => 'balance',
+    'points' => 'points',
+    'program' => 'program',
+    'addProgram' => 'add program',
+    'errorProgramExists' => 'You already have a program named ',
+    'signatureClub' => 'Signature club',
+    'daySignature' => 'Day of points credit',
+    'pointsSignature' => 'Points per month',
+    'valueSignature' => 'Month value',
+    'errorDayRequired' => 'To register a signature club, the day field is required',
+    'errorPointsRequired' => 'To register a club, the points to be credited field is required',
+    'clubActive' => 'signature club',
+    'details' => 'statement',
+    'nameToolTip' => 'Name of the program, e.g., Points Program, Signature Club, etc.',
+    'cpmValue' => 'Replacement value (CPM)',
+    'reposicaoToolTip' => 'Replacement value of the program, used to calculate the value of redeemed points',
+];

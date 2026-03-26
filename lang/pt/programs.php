@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'title' => 'meus programas',
+    'noProgram' => 'Você não tem nenhum programa cadastrado.',
+    'addTitle' => 'adicionar programa',
+    'editTitle' => 'editar programa',
+    'programName' => 'nome do programa',
+    'validity' => 'validade (em meses)',
+    'btnAdd' => 'adicionar',
+    'btnEdit' => 'editar',
+    'balance' => 'saldo',
+    'points' => 'pontos',
+    'program' => 'programa',
+    'addProgram' => 'adicionar programa',
+    'errorProgramExists' => 'Você ja tem um programa com o nome ',
+    'signatureClub' => 'Clube de assinatura',
+    'daySignature' => 'Dia do crédito dos pontos',
+    'pointsSignature' => 'Pontos por mês',
+    'valueSignature' => 'Valor mensal',
+    'errorDayRequired' => 'Para cadastrar um clube, o campo dia é obrigatório',
+    'errorPointsRequired' => 'Para cadastrar um clube, o campo pontos que serão creditados é obrigatório',
+    'clubActive' => 'clube',
+    'details' => 'extrato',
+    'nameToolTip' => 'Nome do programa, ex: Programa de pontos, Clube de assinatura, etc.',
+    'cpmValue' => 'Valor de reposição (CPM)',
+    'reposicaoToolTip' => 'Valor de reposição do programa. É o valor de mercado que você pode pagar para aumentar seu saldo.',
+];
