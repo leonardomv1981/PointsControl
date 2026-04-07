@@ -34,3 +34,4 @@ yarn-error.log
 *.sql
 *.dump
 docker/mysql/anl
+docker-compose.yml
