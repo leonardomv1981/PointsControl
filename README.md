@@ -9,7 +9,7 @@ React components will be included soon.
 -- How to install
 1. Clone this repository
 2. change the file .env_exemple to .env and define the user and passwords required
-2. run "docker-compose up -d" (to create the containers and active it)
+2. run "docker-compose up -d --build" (to create the containers and active it)
 3. run "docker-compose exec app bash" (to access the app container)
 4. run "php artisan migrate" (this will create database)
 5. run "php artisan key:generate" (to generate the laravel key on .env file)
