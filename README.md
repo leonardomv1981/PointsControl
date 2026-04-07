@@ -15,4 +15,7 @@ React components will be included soon.
 5. run "php artisan key:generate" (to generate the laravel key on .env file)
 6. Done!
 
+--troubeshooting
+- After run install steps, if you recieve error 500 on http access, check the permission for www-data user, in "storage bootstrap/cache" and "bootstrap/cache" inside of app container
+
 Note: If you will use in production, have to change lines 29 and 30 on app.php.
