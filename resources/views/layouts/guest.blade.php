@@ -2,7 +2,7 @@
 <meta name="keywords" content="Points Control, gerenciamento de pontos, gerenciamento de milhas, programa de fidelidade, pontos de cartão, milhas aéreas, controle de pontos, acumular milhas, resgatar pontos, melhor uso de milhas, otimizar pontos, cartão de crédito, viagens com milhas, programa de recompensas, pontos acumulados, calculadora de milhas, gestão de fidelidade">
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <link rel="alternate" hreflang="{{__('general.otherLanguage')}}" href="https://www.pointscontrol.com/{{__('general.otherLanguage')}}" />
+        @include('partials.seo-meta')
         <script src="{{ asset('js/color-modes.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js"
         integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp" crossorigin="anonymous">

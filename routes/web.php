@@ -161,8 +161,3 @@ Route::group(['prefix' => '{locale}', 'where' => ['locale' => 'en|pt']], functio
 
     });
 });
-
-// Redirecionar para o idioma padrão ao acessar a raiz do site
-Route::get('/', function () {
-    return redirect('/pt');
-});

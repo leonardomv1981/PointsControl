@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
     <link href="{{ asset('css/general.css') }}" rel="stylesheet">
-    <link rel="alternate" hreflang="{{__('general.otherLanguage')}}" href="https://www.pointscontrol.com/{{__('general.otherLanguage')}}" />
+    @include('partials.seo-meta')
     <style>
         [x-cloak] { display: none !important; }
     </style>
