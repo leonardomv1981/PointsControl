@@ -34,8 +34,9 @@ class Localization
         if (in_array($locale, $supportedLocales)) {
             app()->setLocale($locale);
         } else {
-            // Se o idioma não for suportado, redireciona para o idioma padrão (por exemplo, 'en')
-            return redirect()->to('pt/' . $request->path());
+            // Se o idioma não for suportado, redireciona permanentemente para o idioma padrão
+            $path = $request->path() === '/' ? '' : '/' . $request->path();
+            return redirect()->to('pt' . $path, 301);
         }
 
         return $next($request);
