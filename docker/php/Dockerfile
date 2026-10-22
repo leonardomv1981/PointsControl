@@ -6,7 +6,7 @@ COPY . .
 RUN npm install && npm run build
 
 # --- ESTÁGIO 2: SERVIDOR PHP (SUA CONFIGURAÇÃO ORIGINAL) ---
-FROM php:8.2-fpm
+FROM php:8.2.35-fpm
 
 # 1. Suas dependências de sistema originais
 RUN apt-get update && apt-get install -y \
